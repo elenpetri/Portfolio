@@ -1,0 +1,41 @@
+
+/*Header*/
+
+section.header{
+    border-bottom: 1px solid;
+    padding: 1rem; /*Tamanho do header*/
+}
+
+/*logo*/
+#logo{   
+    margin: 0 1rem;
+}
+
+.span-logo, .nav-menu {
+    max-width: 45%;
+}
+
+/*menu*/
+
+.nav-menu{
+    float: right;
+    padding-top: 3px;
+    margin-right: 110px;
+}
+#menu{
+    list-style: none;
+    display: flex; /*Alinha os títulos do menu lado a lado*/
+    gap: .9rem; /*espaço entre os títulos do menu*/
+    padding: 1rem 2rem; /*alinhamento dos itens dentro da borda*/
+    border: 1px solid black;
+}
+
+#menu a{
+    color: black;
+}
+
+a:link{ /*Remolver o sublinhado do link*/
+    text-decoration: none;
+}
+
+

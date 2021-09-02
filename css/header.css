@@ -14,8 +14,8 @@ section.header{
 }
 
 /*menu*/
-
-.nav-menu{ /*localização do menu*/
+ /*localização do menu*/
+.nav-menu{
     float: right;
     padding-top: 3px;
     margin: 0 1rem;
@@ -31,7 +31,8 @@ section.header{
     justify-content: space-evenly;
 }
 
-#menu a{ /*cor dos links do menu*/
+ /*cor dos links do menu*/
+#menu a{
     color: var(--cor5);
     font-weight: bold;
 }
@@ -42,7 +43,8 @@ a.active:link{
     text-decoration-color: black;
 }
 
-a:link{ /*Remolver o sublinhado do link*/
+/*Remover o sublinhado do link*/
+a:link{ 
     text-decoration: none;
 }
 

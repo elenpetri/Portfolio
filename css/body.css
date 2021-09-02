@@ -31,7 +31,6 @@ body{
 
 button{
     padding-top: 10%;
-
 }
 
 button.github{
@@ -39,7 +38,8 @@ button.github{
 }
 
 /*estilização do botão*/
-.redes_sociais button{
+
+.redes_sociais button, .redes_sociais button a:visited{ /*a:visited = para não mostrar a cor azul quando clicado*/
     font-size: 15px;
     font-weight: bold;
     color: var(--cor7);
@@ -48,10 +48,10 @@ button.github{
     border-radius: 10px;
     padding: 10px;
     box-shadow: 2px 2px #888888;
-
 }
 
-.redes_sociais button:hover{ /*efeito botão*/
+/*efeito botão*/
+.redes_sociais button:hover, .redes_sociais button:hover > a:visited{ 
     background-color: var(--cor7);
     color: var(--cor6);
 }

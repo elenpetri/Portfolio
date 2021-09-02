@@ -2,8 +2,8 @@
 @import "cores.css";
 
 /*Header*/
-section.header{
-    border-bottom: 1px solid;
+.header{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.397);
     background-color: var(--cor7);
 }
 

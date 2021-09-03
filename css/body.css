@@ -1,40 +1,33 @@
 @charset "UTF-8";
 @import "cores.css";
 
-body{
+.corpo{
     background-color: var(--cor5);
-    margin: 0%;
 }
+
+*, ::after, ::before {
+    box-sizing: unset;
+}
+
+
 .imagem1{
     width:auto;
     height: auto;
     max-width: 300px;
     max-height: 300px;
-    padding-left: 20%;
-    padding-top: 10%;
+}
+
+@media (max-width: 600px){
+    .imagem1{
+        display: block;
+        width: 50%;
+        height: auto;
+    }
 }
 
 .nome{
-    font-size: 35px;
+    font-size: 40px;
     color: var(--cor7);
-}
-
-.right{
-    text-align: center;
-    float: right;
-    align-items: center;
-    padding-right: 20%;
-    padding-top: 10%;
-}
-
-/*localização do botão*/
-
-button{
-    padding-top: 10%;
-}
-
-button.github{
-    margin-left: 20px; /*espaço entre os botões*/
 }
 
 /*estilização do botão*/
@@ -46,21 +39,25 @@ button.github{
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid var(--cor4);
     border-radius: 10px;
+    width: 100px;
     padding: 10px;
-    box-shadow: 2px 2px #888888;
+    box-shadow: 2px 2px #b3b1b1;
 }
-
+    
 /*efeito botão*/
 .redes_sociais button:hover, .redes_sociais button:hover > a:visited{ 
     background-color: var(--cor7);
     color: var(--cor6);
 }
 
-@media (max-width: 600px){
-    .imagem1{
-        display: block;
-        width: 50%;
-        height: auto;
-    }
+/*Sobre*/
+.imagem2{
+    max-width: 100px;
+    max-height: 100px;
 }
+.imagem2:hover{
+   filter:opacity(0.70);
+   transform: scale(1.1);
+}
+
 

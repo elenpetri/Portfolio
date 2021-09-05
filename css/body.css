@@ -1,11 +1,22 @@
 @charset "UTF-8";
 @import "cores.css";
 
-.corpo{
-    background-color: var(--cor5);
+
+.align-items-body{/*alinha os itens no meio da tela*/
+    padding: 5%;
+    margin: auto;
 }
 
-*, ::after, ::before {
+.corpo{ /*Cor de fundo*/
+    background-color: var(--cor5);
+    min-width: 466px;
+}
+
+.texto {
+    width: 466px;
+}
+
+*, ::after, ::before {/*Alinhamento do texto e botões do corpo*/
     box-sizing: unset;
 }
 
@@ -24,7 +35,7 @@
 
 /*estilização do botão*/
 
-.redes_sociais button, .redes_sociais button a:visited{ /*a:visited = para não mostrar a cor azul quando clicado*/
+.redes_sociais button,.redes_sociais button a:visited{ /*a:visited = para não mostrar a cor azul quando clicado*/
     font-size: 15px;
     font-weight: bold;
     color: var(--cor7);
@@ -35,6 +46,11 @@
     padding: 10px;
     box-shadow: 2px 2px #b3b1b1;
 }
+
+.redes_sociais button a{ /*a:visited = para não mostrar a cor azul sem ter clicado*/
+    color: var(--cor7);
+    
+}
     
 /*efeito botão*/
 .redes_sociais button:hover, .redes_sociais button:hover > a:visited{ 
@@ -42,14 +58,34 @@
     color: var(--cor6);
 }
 
+@media (max-width: 600px){
+    .imagem1,.imagem2{
+        height: 80%;
+    } 
+    .no-padding-small {
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+
+    .footer{
+        position: relative;
+    }
+} 
+
 /*Sobre*/
 .imagem2{
-    max-width: 100px;
-    max-height: 100px;
+    width:auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
 }
 .imagem2:hover{
    filter:opacity(0.70);
    transform: scale(1.1);
+}
+
+.texto-sobre > h1{
+    font-size: 20px;
 }
 
 

@@ -7,19 +7,14 @@
     margin: auto;
 }
 
-.corpo{ /*Cor de fundo*/
+#corpo{ /*Cor de fundo*/
     background-color: var(--cor5);
     min-width: 466px;
-}
-
-.texto {
-    width: 466px;
 }
 
 *, ::after, ::before {/*Alinhamento do texto e botões do corpo*/
     box-sizing: unset;
 }
-
 
 .imagem1{
     width:auto;
@@ -28,14 +23,18 @@
     max-height: 300px;
 }
 
-.nome{
+#nome{
     font-size: 40px;
     color: var(--cor7);
 }
 
+#texto {
+    width: 466px;
+}
+
 /*estilização do botão*/
 
-.redes_sociais button,.redes_sociais button a:visited{ /*a:visited = para não mostrar a cor azul quando clicado*/
+#redes_sociais button,#redes_sociais button a:visited{ /*a:visited = para não mostrar a cor azul quando clicado*/
     font-size: 15px;
     font-weight: bold;
     color: var(--cor7);
@@ -47,19 +46,19 @@
     box-shadow: 2px 2px #b3b1b1;
 }
 
-.redes_sociais button a{ /*a:visited = para não mostrar a cor azul sem ter clicado*/
+#redes_sociais button a{ /*a:visited = para não mostrar a cor azul sem ter clicado*/
     color: var(--cor7);
     
 }
     
 /*efeito botão*/
-.redes_sociais button:hover, .redes_sociais button:hover > a:visited{ 
+#redes_sociais button:hover, #redes_sociais button:hover > a:visited{ 
     background-color: var(--cor7);
     color: var(--cor6);
 }
 
 @media (max-width: 600px){
-    .imagem1,.imagem2{
+    .imagem1{
         height: 80%;
     } 
     .no-padding-small {
@@ -72,21 +71,39 @@
     }
 } 
 
-/*Sobre*/
+/*CSS Sobre*/
+
+#corpo-sobre{ /*Cor de fundo*/
+    background-color: var(--cor5);
+    min-width: 466px;
+}
+
 .imagem2{
     width:auto;
     height: auto;
-    max-width: 200px;
-    max-height: 200px;
-}
-.imagem2:hover{
-   filter:opacity(0.70);
-   transform: scale(1.1);
+    max-width: 300px;
+    max-height: 300px;
 }
 
-.texto-sobre > h1{
-    font-size: 20px;
+.imagem2:hover{
+   filter:opacity(0.70);
+   transform: scale(1.1);/*10% de zoom na imagem*/
 }
+
+
+@media (max-width: 600px){
+    .imagem2{
+        height: 90%;
+    } 
+}
+
+#sobre, #infos-educacionais{
+    font-size: 40px;
+    color: var(--cor7);
+}
+
+ 
+ 
 
 
 

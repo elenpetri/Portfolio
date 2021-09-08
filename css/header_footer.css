@@ -3,11 +3,11 @@
 
 @font-face {
     font-family: 'Rustling' ;
-    src: url('Rustling\ Sound.ttf') format('truetype');
+    src: url('../fontes/Rustling\ Sound.ttf') format('truetype');
 }
 
 /*Header*/
-.cabecalho{
+#cabecalho{
     background-color: var(--cor7);
 }
 
@@ -24,7 +24,7 @@
     padding: 1rem 2rem;
 }
 
-/*Coloca cor de fundo e sublunhado no menu da página atual*/
+/*Coloca cor de fundo e sublinhado no menu da página atual*/
 .nav-pills .nav-link.active.menu-item-color, .nav-pills .show>.nav-link.menu-item-color{
     background-color: var(--cor4);
     text-decoration-line: underline;
@@ -45,11 +45,12 @@ a:link{
 }
 
 /*Footer*/
-.footer{
+#footer{
     background-color: var(--cor7);
     text-align: center;
 }
-.footer .text {
+
+#footer .text {
     color: var(--cor5);
     font-family: 'Rustling' ;
     font-size: 20px;

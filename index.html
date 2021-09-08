@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://getbootstrap.com/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/header_footer.css">
     <link rel="stylesheet" href="css/body.css">
     <link rel="icon" type="image/png" sizes="32x32" href="imagens/icon.png">
@@ -14,8 +13,8 @@
 
 </head>
 
-<body class="corpo">
-    <div class="cabecalho">
+<body id="corpo">
+    <div id="cabecalho">
         <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
                 <img id="logo" src="imagens/logo1.png" alt="Logo">
@@ -38,13 +37,13 @@
         <div class="my-auto flex-wrap g-0  d-flex justify-content-around">
             <div class="d-flex flex-wrap justify-content-around p-5 no-padding-small">
                 <div class="col d-flex justify-content-center mb-3">
-                    <img class="imagem1" src="imagens/imagem_autora_removebg.png" alt="Imagem da autora">
+                    <img class="imagem1" src="imagens/imagem_autora_1.png" alt="Imagem da autora">
                 </div>
                 <div class="col row no-padding-small d-flex ">
                     <div class="row no-padding-small justify-content-center text-center">
-                    <h1 class="nome no-padding-small">Élen Petri</h1>
-                    <h2 class="texto no-padding-small">Estudante de Desenvolvimento de Software Multiplataforma</h2>
-                    <span class="redes_sociais no-padding-small">
+                    <h1 id="nome" class="no-padding-small">Élen Petri</h1>
+                    <h2 id="texto" class="no-padding-small">Estudante de Desenvolvimento de Software Multiplataforma</h2>
+                    <span id="redes_sociais" class="no-padding-small">
                         <button type="button" class="linkedin mb-3">
                             <a href="https://www.linkedin.com/in/elen-petri/" target="_blank">LINKEDIN</a>
                         </button>
@@ -57,7 +56,7 @@
             </div>
         </div>
     </div>
-    <footer class="footer no-padding-small mt-auto py-3 fixed-bottom">
+    <footer id="footer" class="no-padding-small mt-auto py-3 fixed-bottom">
         <div class="container no-padding-small">
             <a href="index.html" class="text">by Élen Petri</a>
         </div>

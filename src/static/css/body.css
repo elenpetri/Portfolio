@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import "cores.css";
+@import "../css/cores.css";
 
 
 .align-items-body{/*alinha os itens no meio da tela*/

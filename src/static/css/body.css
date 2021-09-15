@@ -103,7 +103,42 @@
 }
 
  
- 
+ /*CSS Projetos*/
+ #titulo{
+    font-size: 40px;
+    color: var(--cor7);
+    text-align: center;
+}
+
+#projeto1{
+    font-size: 40px;
+    color: var(--cor7);
+}
+
+/*estilização do botão*/
+
+.projeto button a:visited, .projeto button{ /*a:visited = para não mostrar a cor azul quando clicado*/
+    border: 1px solid var(--cor4);
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--cor7);
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid var(--cor4);
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+    box-shadow: 2px 2px #b3b1b1;
+}
+
+.projeto button a{ /*a:visited = para não mostrar a cor azul sem ter clicado*/
+    color: var(--cor7);
+}
+    
+/*efeito botão*/
+.projeto button:hover, .projeto button:hover > a:visited{ 
+    background-color: var(--cor7);
+    color: var(--cor6);
+}
 
 
 

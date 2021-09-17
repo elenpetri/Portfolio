@@ -22,6 +22,7 @@
     color: var(--cor5);
     font-weight: bold;
     padding: 1rem 2rem;
+    font-size: large;
 }
 
 /*Coloca cor de fundo e sublinhado no menu da página atual*/

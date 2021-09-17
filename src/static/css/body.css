@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import "../css/cores.css";
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
 
 .align-items-body{/*alinha os itens no meio da tela*/
     padding: 5%;
@@ -24,8 +24,9 @@
 }
 
 #nome{
-    font-size: 40px;
+    font-size: 50px;
     color: var(--cor7);
+    font-family: 'Playfair Display', serif;
 }
 
 #texto {
@@ -104,20 +105,27 @@
 
  
  /*CSS Projetos*/
+
+
  #titulo{
     font-size: 40px;
     color: var(--cor7);
     text-align: center;
 }
 
-#projeto1{
+#projeto1, #projeto2{
     font-size: 40px;
     color: var(--cor7);
 }
 
+p {
+    max-width: 80%;
+    text-align: justify;
+}
+
 /*estilização do botão*/
 
-.projeto button a:visited, .projeto button{ /*a:visited = para não mostrar a cor azul quando clicado*/
+.projeto button.botao_saibamais a:visited, .projeto button.botao_saibamais{ /*a:visited = para não mostrar a cor azul quando clicado*/
     border: 1px solid var(--cor4);
     font-size: 15px;
     font-weight: bold;
@@ -130,16 +138,37 @@
     box-shadow: 2px 2px #b3b1b1;
 }
 
-.projeto button a{ /*a:visited = para não mostrar a cor azul sem ter clicado*/
+.projeto button.botao_saibamais a{ /*a:visited = para não mostrar a cor azul sem ter clicado*/
     color: var(--cor7);
 }
     
 /*efeito botão*/
-.projeto button:hover, .projeto button:hover > a:visited{ 
+.projeto button.botao_saibamais:hover, .projeto button.botao_saibamais:hover > a:visited{ 
     background-color: var(--cor7);
     color: var(--cor6);
 }
 
+/*CSS Mensagem do botão*/
 
+@media(max-width:600px){
+    #saibamais{
+        max-width: 100%!important;
+    }
+    .textoprojeto{
+        text-align: center;
+    }
+}
+
+#saibamais{
+    max-width: 30%;
+    color: var(--cor4);
+    background-color: #92374729;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#saibamais > p{
+    font-size: smaller;
+}
 
 

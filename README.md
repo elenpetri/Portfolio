@@ -39,4 +39,5 @@ Desenvolvimento de um sistema para Internet que sirva como uma página pessoal o
 * [src/static/fontes](https://github.com/elenpetri/Portifolio/tree/main/src/static/fontes): arquivo que contém fonte externa que está sendo utilizada na assinatura da autora no footer;
 * [src/static/imagens](https://github.com/elenpetri/Portifolio/tree/main/src/static/imagens): arquivo que contém imagens que estão sendo utilizadas no sistema
 * [src/templates](https://github.com/elenpetri/Portifolio/tree/main/src/templates): arquivo que contém os arquivos html (index.html, projetos.html e sobre.html)
- 
+
+> *  [Vídeo explicativo no canal do YouTube](https://youtu.be/jT8Ad46LVV8)

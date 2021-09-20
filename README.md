@@ -32,13 +32,13 @@ Desenvolvimento de um sistema para Internet que sirva como uma página pessoal o
 * Implantação do sistema em um servidor de aplicação, tal como Heroku. 
 
 > # Arquivos
-* [doc](https://github.com/elenpetri/Portifolio/tree/main/doc): arquivo que contém documento em PDF com wireframe destktop e mobile;
-* [src](https://github.com/elenpetri/Portifolio/tree/main/src): arquivo que contém o código fonte;
-* [src/static](https://github.com/elenpetri/Portifolio/tree/main/src/static): arquivo que contém a estilização da página (arquivo css), fontes e imagens;
-* [src/static/css](https://github.com/elenpetri/Portifolio/tree/main/src/static/css): arquivo que contém a estilização da página (arquivo css)
-* [src/static/fontes](https://github.com/elenpetri/Portifolio/tree/main/src/static/fontes): arquivo que contém fonte externa que está sendo utilizada na assinatura da autora no footer;
-* [src/static/imagens](https://github.com/elenpetri/Portifolio/tree/main/src/static/imagens): arquivo que contém imagens que estão sendo utilizadas no sistema
-* [src/templates](https://github.com/elenpetri/Portifolio/tree/main/src/templates): arquivo que contém os arquivos html (index.html, projetos.html e sobre.html)
+* [doc](/doc): arquivo que contém documento em PDF com wireframe destktop e mobile;
+* [src](/src): arquivo que contém o código fonte;
+* [src/static](/src/static): arquivo que contém a estilização da página (arquivo css), fontes e imagens;
+* [src/static/css](/src/static/css): arquivo que contém a estilização da página (arquivo css)
+* [src/static/fontes](/src/static/fontes): arquivo que contém fonte externa que está sendo utilizada na assinatura da autora no footer;
+* [src/static/imagens](/src/static/imagens): arquivo que contém imagens que estão sendo utilizadas no sistema
+* [src/templates](/src/templates): arquivo que contém os arquivos html (index.html, projetos.html e sobre.html)
 
 <br/>
 

@@ -31,16 +31,26 @@ Desenvolvimento de um sistema para Internet que sirva como uma página pessoal o
 * O front end do sistema poderá fazer uso de JavaScript. 
 * Implantação do sistema em um servidor de aplicação, tal como Heroku. 
 
-> # Arquivos
-* [doc](/doc): arquivo que contém documento em PDF com wireframe destktop e mobile;
-* [src](/src): arquivo que contém o código fonte;
-* [src/static](/src/static): arquivo que contém a estilização da página (arquivo css), fontes e imagens;
-* [src/static/css](/src/static/css): arquivo que contém a estilização da página (arquivo css)
-* [src/static/fontes](/src/static/fontes): arquivo que contém fonte externa que está sendo utilizada na assinatura da autora no footer;
-* [src/static/imagens](/src/static/imagens): arquivo que contém imagens que estão sendo utilizadas no sistema
-* [src/templates](/src/templates): arquivo que contém os arquivos html (index.html, projetos.html e sobre.html)
-
+> # Arquivos e documentos
+* [doc](/doc): pasta que contém documento em PDF com wireframe desktop e mobile;
+  * [wireframe](doc/wireframe_desktop_e_mobile.pdf): wireframe desktop e mobile que constitui essencialmente desenhos, com um esquema único de layout, cores e arquitetura da informação coerentes com o projeto;
+* [src](/src): pasta que contém o código fonte;
+* [src/static](/src/static): pasta que contém a estilização da página (arquivo css), fontes e imagens;
+* [src/static/css](/src/static/css): pasta que contém a estilização da página (arquivo css);
+  * [body](src/static/css/body.css): arquivo css que contém a estilização do corpo(body) do protótipo;
+  * [cores](src/static/css/cores.css): arquivo css que contém a padronização do esquema de cores do protótipo;
+  * [header_footer](src/static/css/header_footer.css): arquivo css que contém a estilização do cabeçalho(header) e do rodapé(footer) do protótipo;
+* [src/static/fontes](/src/static/fontes): pasta que contém fonte externa que está sendo utilizada na assinatura da autora no footer;
+  * [fontes](/src/static/fontes): arquivo fonte externa que está sendo utilizada na assinatura da autora no footer do protótipo;
+* [src/static/imagens](/src/static/imagens): pasta que contém imagens que estão sendo utilizadas no sistema;
+  * [icon](src/static/imagens/icon.png): arquivo utilizado como ícone da aba do navegador;
+  * [imagem_autora_1](src/static/imagens/imagem_autora_1.png): foto da autora exibida na página inicial;
+* [src/templates](/src/templates): arquivo que contém os arquivos html (index.html, projetos.html e sobre.html);
+  * [index](src/templates/index.html): arquivo que contém a estruturação em HTML da página inicial do protótipo;
+  * [projetos](src/templates/projetos.html): arquivo que contém a estruturação em HTML da página de projetos do protótipo;
+  * [sobre](src/templates/sobre.html): arquivo que contém a estruturação em HTML da página sobre do protótipo.
 <br/>
+
 
 > ## Link para o vídeo no youtube
 > [Vídeo explicativo no canal do YouTube](https://youtu.be/jT8Ad46LVV8)

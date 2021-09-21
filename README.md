@@ -39,16 +39,20 @@ Desenvolvimento de um sistema para Internet que sirva como uma página pessoal o
 * [src/static/css](/src/static/css): pasta que contém a estilização da página (arquivo css);
   * [body](src/static/css/body.css): arquivo css que contém a estilização do corpo(body) do protótipo;
   * [cores](src/static/css/cores.css): arquivo css que contém a padronização do esquema de cores do protótipo;
-  * [header_footer](src/static/css/header_footer.css): arquivo css que contém a estilização do cabeçalho(header) e do rodapé(footer) do protótipo;
+  * [header_footer](/src/static/css/header_footer.css): arquivo css que contém a estilização do cabeçalho(header) e do rodapé(footer) do protótipo;
 * [src/static/fontes](/src/static/fontes): pasta que contém fonte externa que está sendo utilizada na assinatura da autora no footer;
-  * [fontes](/src/static/fontes): arquivo fonte externa que está sendo utilizada na assinatura da autora no footer do protótipo;
+  * [fontes](/src/static/fontes/Rustling%20Sound.ttf): arquivo de fonte externa que está sendo utilizada na assinatura da autora no footer do protótipo;
 * [src/static/imagens](/src/static/imagens): pasta que contém imagens que estão sendo utilizadas no sistema;
-  * [icon](src/static/imagens/icon.png): arquivo utilizado como ícone da aba do navegador;
-  * [imagem_autora_1](src/static/imagens/imagem_autora_1.png): foto da autora exibida na página inicial;
+  * [icon](/src/static/imagens/icon.png): arquivo utilizado como ícone da aba do navegador;
+  * [imagem_autora_1](/src/static/imagens/imagem_autora_1.png): foto da autora exibida na página inicial;
+  * [imagem_autora_2](/src/static/imagens/imagem_autora_2.png): foto da autora exibida na página sobre;
+  * [logo](/src/static/imagens/logo.png): logo criado como identidade visual, se encontra localizado no header do protótipo;
+  * [projeto1](/src/static/imagens/projeto1.png): imagem do projeto 1 exibida na página de projetos;
+  * [projeto2](/src/static/imagens/projeto2.png): imagem fictícia dpara demonstrar como será disponibilizado a imagem do projeto 2;
 * [src/templates](/src/templates): arquivo que contém os arquivos html (index.html, projetos.html e sobre.html);
-  * [index](src/templates/index.html): arquivo que contém a estruturação em HTML da página inicial do protótipo;
-  * [projetos](src/templates/projetos.html): arquivo que contém a estruturação em HTML da página de projetos do protótipo;
-  * [sobre](src/templates/sobre.html): arquivo que contém a estruturação em HTML da página sobre do protótipo.
+  * [index](/src/templates/index.html): arquivo que contém a estruturação em HTML da página inicial do protótipo;
+  * [projetos](/src/templates/projetos.html): arquivo que contém a estruturação em HTML da página de projetos do protótipo;
+  * [sobre](/src/templates/sobre.html): arquivo que contém a estruturação em HTML da página sobre do protótipo.
 <br/>
 
 

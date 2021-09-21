@@ -1,10 +1,10 @@
->  # Portifólio
+ # Portifólio
 
 ## :woman_student: Discente:  Élen Fernanda dos Santos Petri
 * RA: 1461392121019
 * Turma: 1º Semestre - DSM
 
-> # Objetivo
+# Objetivo
 Desenvolvimento de um sistema para Internet que sirva como uma página pessoal onde possam ser encontradas as seguintes informações:
  1. Dados do proprietário do sistema (autor da página/aplicação web); <br/>
     a. Uma foto que contenha efeitos de redimensionamento e filtro;
@@ -15,7 +15,7 @@ Desenvolvimento de um sistema para Internet que sirva como uma página pessoal o
   2. Portfólio (trabalhos desenvolvidos ou que pretende desenvolver); 
   3. Outras informações relevantes ou de interesse do autor/proprietário. 
 
-> # Requisitos
+# Requisitos
 * Responsividade de maneira a manter um layout amigável e bem estruturado tanto em um computador de mesa (desktop, laptop e similares) como em um dispositivo móvel;
 * Boas  práticas  de  arquitetura  de  informação  na  construção  das interfaces;
 * Possuir no mínimo, três interfaces acessíveis a partir de algum mecanismo de navegação;
@@ -31,7 +31,7 @@ Desenvolvimento de um sistema para Internet que sirva como uma página pessoal o
 * O front end do sistema poderá fazer uso de JavaScript. 
 * Implantação do sistema em um servidor de aplicação, tal como Heroku. 
 
-> # Arquivos e documentos
+# Arquivos e documentos
 * [doc](/doc): pasta que contém documento em PDF com wireframe desktop e mobile;
   * [wireframe](doc/wireframe_desktop_e_mobile.pdf): wireframe desktop e mobile que constitui essencialmente desenhos, com um esquema único de layout, cores e arquitetura da informação coerentes com o projeto;
 * [src](/src): pasta que contém o código fonte;
@@ -56,5 +56,5 @@ Desenvolvimento de um sistema para Internet que sirva como uma página pessoal o
 <br/>
 
 
-> ## Link para o vídeo no youtube
-> [Vídeo explicativo no canal do YouTube](https://youtu.be/jT8Ad46LVV8)
+## Link para o vídeo no youtube
+[Vídeo explicativo no canal do YouTube](https://youtu.be/jT8Ad46LVV8)

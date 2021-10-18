@@ -99,8 +99,15 @@
 }
 
 #sobre, #infos-educacionais{
-    font-size: 40px;
+    font-size: 2rem;
     color: var(--cor7);
+}
+
+#ens_med, #fac1, #fac2{
+    font-size: 1.5rem;
+    color: var(--cor7);
+    max-width: 81%;
+    text-align: justify;
 }
 
  
@@ -121,6 +128,10 @@
 p {
     max-width: 80%;
     text-align: justify;
+}
+
+#projeto2{
+    flex-wrap: wrap-reverse!important;
 }
 
 /*estilização do botão*/

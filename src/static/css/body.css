@@ -48,12 +48,11 @@
 }
 
 #redes_sociais button a{ /*a:visited = para não mostrar a cor azul sem ter clicado*/
-    color: var(--cor7);
-    
+    color: var(--cor7);   
 }
     
 /*efeito botão*/
-#redes_sociais button:hover, #redes_sociais button:hover > a:visited{ 
+#redes_sociais button:hover, #redes_sociais button:hover > a:visited, #redes_sociais button:hover > a{ 
     background-color: var(--cor7);
     color: var(--cor6);
 }

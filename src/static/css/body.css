@@ -145,11 +145,10 @@
 }
 
 #projeto1, #projeto2{
-    font-size: 40px;
     color: var(--cor7);
 }
 
-.textoprojeto > p {
+.descricaoprojeto > p {
     max-width: 80%;
     text-align: justify;
 }
@@ -189,8 +188,28 @@
     #saibamais{
         max-width: 100%!important;
     }
-    .textoprojeto{
-        text-align: center;
+    .descricaoprojeto{
+        text-align: justify;
+    }
+    .inverteimagem{
+        flex-direction: column-reverse;
+    }
+    .posicaoimg{
+        padding-top: 3rem!important;
+    }
+
+    .posicaotxt{
+        padding-top: 0!important;
+        padding-bottom: 3rem;
+    }
+
+
+    .descricaoprojeto > p {
+        max-width: none;
+    }
+
+    .img-mobile{
+        justify-content: space-around;
     }
 }
 

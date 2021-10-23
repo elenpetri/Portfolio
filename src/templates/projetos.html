@@ -34,18 +34,18 @@
     </div>
     <main>
         <div class="py-3 bg-white"></div>
-        <h1 id="titulo" class="p-5">Meus projetos</h1>
+        <h1 id="titulo" class="pt-2">Meus projetos</h1>
 
-        <div class="my-auto flex-wrap g-0 d-flex justify-content-around p-5">
+        <div class="my-auto flex-wrap g-0 d-flex justify-content-around px-3">
             <div class="d-flex flex-wrap justify-content-around no-padding-small">
                 <div class="col d-flex mb-3 col-lg-3 col-12 justify-content-around">
                     <img class="imagem2" src="../static/imagens/projeto1.png" alt="Imagem da autora">
                 </div>
                 <div class="col row no-padding-small d-flex py-3 mx-0 me-0 projeto">
-                    <div class="no-padding-small justify-content">
-                        <div class="textoprojeto">
+                    <div class="no-padding-small justify-content p-0">
+                        <div class="descricaoprojeto">
                             <h1 id="projeto1" class="px-lg-2 row mx-3 me-0 no-padding-small">Site institucional</h1>
-                            <p class="px-lg-2 row mx-3 me-0 no-padding-small">Website de caráter institucional, projeto desenvolvido para fins didáticos proposto pela Faculdade de Tecnologia de São José dos Campos (FATEC) com o objetivo de solucionar o problema de visibilidade da instituição e atrair mais voluntários/participantes.</p>
+                            <p class="px-lg-2 row mx-3 me-0 no-padding-small descricaoprojeto">Website de caráter institucional, projeto desenvolvido para fins didáticos proposto pela Faculdade de Tecnologia de São José dos Campos (FATEC) com o objetivo de solucionar o problema de visibilidade da instituição e atrair mais voluntários/participantes.</p>
                         </div>
                         <button type="button" class="projeto mx-3 me-0 botao_saibamais">
                             <a href="https://github.com/Xtreme-Equipe/Projeto-Site-Intitucional" target="_blank">Saiba mais</a>
@@ -54,43 +54,30 @@
                 </div>
             </div>
         </div>
-        <div class="my-auto flex-wrap g-0  d-flex justify-content-around p-5">
-            <div class="d-flex flex-wrap justify-content-around no-padding-small">
-                <div class="col row no-padding-small d-flex py-3 mx-0 projeto">
-                    <div class=" no-padding-small justify-content">
-                        <h1 id="projeto2" class="px-lg-2 row mx-3 no-padding-small">Projeto 2</h1>
-                        <p class="px-lg-2 row mx-3 no-padding-small">Aqui serão adicionadas informações sobre o segundo projeto</p>
-                        <button type="button" class="projeto mx-3 botao_saibamais"  onclick="mostrar_msg()" value="Exibir Alert">
-                            <a >Saiba mais</a>
+        <div class="my-auto flex-wrap g-0  d-flex justify-content-around px-3 posicaoimg">
+            <div class="d-flex flex-wrap justify-content-around no-padding-small inverteimagem">
+                <div class="col row no-padding-small d-flex pt-5 mx-0 projeto posicaotxt">
+                    <div class="ps-5 col-lg-10 no-padding-small justify-content descricaoprojeto">
+                        <h1 id="projeto2" class="px-lg-2 row mx-3 no-padding-small">Website de informações da instituição Fatec SJC</h1>
+                        <p class="px-lg-2 row mx-3 no-padding-small">O objetivo do projeto se baseou no problema que começou
+                            devido a pandemia do novo Coronavirus. O volume de informações da parte administrativa trocadas com
+                            os alunos e professores através do e-mail vieram tendo um aumento significativo fazendo com que
+                            muitas informações importantes passassem a ser lidas fora do seu tempo apropriado, ou seja, perda
+                            informações importantes. Para solucionar esse problema decidimos criar uma aplicação web onde os
+                            docentes e discentes possam ver as informações de forma seletiva e controlada, sendo eles avisos
+                            gerais ou específicos dos cursos.</p>
+                        <button type="button" class="projeto mx-3 botao_saibamais" onclick="mostrar_msg()" value="Exibir Alert">
+                            <a>Saiba mais</a>
                         </button>
                     </div>
-                    <div id="saibamais" class="alert alert-warning alert-dismissible fade no-padding-small" role="alert">
-                        <p>Obrigada pelo interesse em saber mais sobre o projeto.</p>
-                        <p>No momento o site ainda se encontra em construção, logo mais você poderá acessá-lo
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                            <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
-                          </svg>
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" onclick="botao_fechar_msg()" aria-label="Fechar"></button>
-                    </div>
                 </div>
-                <div class="col d-flex mb-3 col-lg-3 col-12 justify-content-around">
+                <div class="col d-flex mb-3 col-lg-3 img-mobile">
                     <img class="imagem2" src="../static/imagens/projeto2.png" alt="Imagem da autora">
                 </div>
-                
+        
             </div>
         </div>
     </main>
-    <script>
-        function mostrar_msg() {
-            document.getElementById('saibamais').classList.add('show'); /*mostra a mensagem de enviado com sucesso*/ 
-        }
-        
-        function botao_fechar_msg(){
-            document.getElementById('saibamais').classList.remove('show');/*função do botão de fechar mensagem de sucesso*/
-        }
-    </script>
-
     <footer id="footer" class="no-padding-small mt-auto py-3">
         <div class="container no-padding-small">
             <a href="index.html" class="text">by Élen Petri</a>

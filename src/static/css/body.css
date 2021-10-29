@@ -9,7 +9,7 @@
 
 #corpo{ /*Cor de fundo*/
     background-color: var(--cor5);
-    min-width: 466px;
+    min-width: 375px;
 }
 
 *, ::after, ::before {/*Alinhamento do texto e botões do corpo*/
@@ -69,13 +69,17 @@
     .footer{
         position: relative;
     }
+
+    #texto {
+        width: 375px;
+    }
 } 
 
 /*CSS Sobre*/
 
 #corpo-sobre{ /*Cor de fundo*/
     background-color: var(--cor5);
-    min-width: 466px;
+    min-width: 375px;
 }
 
 .imagem2{

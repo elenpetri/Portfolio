@@ -33,7 +33,7 @@
 }
 
 /*Remover o sublinhado do link*/
-a:link{ 
+footer a:link{ 
     text-decoration: none;
 }
 

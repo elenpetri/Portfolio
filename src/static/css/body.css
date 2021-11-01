@@ -112,14 +112,12 @@
 
 
 #sobre, #infos-educacionais{
-    font-size: 2rem;
     color: var(--cor7);
 }
 
 #ens_med, #fac1, #fac2{
     font-size: 1.5rem;
     color: var(--cor7);
-    max-width: 81%;
     text-align: justify;
 }
 .cursotempo{
@@ -152,6 +150,9 @@
     }
     .info-sobre > p{ /*alinhameto dos parágrafos "sobre" em mobile*/
         text-align: justify;
+    }
+    #infos-educacionais{
+        justify-content: center;
     }
 }
 

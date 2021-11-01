@@ -5,6 +5,7 @@
 .align-items-body{/*alinha os itens no meio da tela*/
     padding: 5%;
     margin: auto;
+    padding-bottom: 2px;
 }
 
 #corpo{ /*Cor de fundo*/
@@ -58,20 +59,35 @@
 }
 
 @media (max-width: 600px){
+    .imagem-home{
+        height: 50%;
+    }
     .imagem1{
-        height: 80%;
+        height: auto;
+        margin-bottom: 0rem!important;
     } 
     .no-padding-small {
         padding-right: 0px!important;
         padding-left: 0px!important;
     }
 
-    .footer{
-        position: relative;
+    #nome{
+        font-size: xx-large;
+
     }
 
-    #texto {
+    .texto{
+        margin: 0%;
+    }
+
+    #texto{
         width: 375px;
+        font-size: larger;
+        padding-bottom: 1rem;
+    }
+
+    #footer{
+        position: relative;
     }
 } 
 

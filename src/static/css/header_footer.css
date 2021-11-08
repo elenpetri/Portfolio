@@ -8,7 +8,7 @@
 
 /*Header*/
 #cabecalho{
-    background-color: var(--cor7);
+    background-color: var(--corprimary);
 }
 
 /*logo*/
@@ -19,7 +19,7 @@
 
 /*menu*/
 #menu a{
-    color: var(--cor5);
+    color: var(----cortxt);
     font-weight: bold;
     padding: 1rem 2rem;
     font-size: large;
@@ -27,7 +27,7 @@
 
 /*Coloca cor de fundo e sublinhado no menu da página atual*/
 .nav-pills .nav-link.active.menu-item-color, .nav-pills .show>.nav-link.menu-item-color{
-    background-color: var(--cor4);
+    background-color: var(--corbgmenu);
     text-decoration-line: underline;
     text-underline-offset: 2px;
 }
@@ -51,12 +51,12 @@ footer a:link{
 
 /*Footer*/
 #footer{
-    background-color: var(--cor7);
+    background-color: var(--corprimary);
     text-align: center;
 }
 
 #footer .text {
-    color: var(--cor5);
+    color: var(----cortxt);
     font-family: 'Rustling' ;
     font-size: 20px;
     text-align: center;

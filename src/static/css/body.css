@@ -17,6 +17,7 @@
     box-sizing: unset;
 }
 
+/*CSS Home*/
 .imagem1{
     width:auto;
     height: auto;
@@ -90,7 +91,7 @@
         position: relative;
     }
 } 
-
+/*=====================================================================================================*/
 /*CSS Sobre*/
 
 #corpo-sobre{ /*Cor de fundo*/
@@ -165,8 +166,9 @@
         z-index: 1030;
     }
 }
-
+/*=====================================================================================================*/
  /*CSS Projetos*/
+
  .img-projeto{
     width:250px;
     height: 250px;
@@ -223,6 +225,9 @@
 }
 
 @media(max-width:600px){
+    #projeto1, #projeto2, #projeto3{
+        text-align: center;
+    }
     .img-projeto{
         filter: none;
         transform: none !important;

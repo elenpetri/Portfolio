@@ -57,4 +57,4 @@ Desenvolvimento de um sistema para Internet que sirva como uma página pessoal o
 
 
 ## Link para o vídeo no youtube
-[Vídeo explicativo no canal do YouTube](https://youtu.be/jT8Ad46LVV8)
+[Vídeo explicativo da primeira entrega](https://youtu.be/jT8Ad46LVV8)

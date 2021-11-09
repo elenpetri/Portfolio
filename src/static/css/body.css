@@ -101,7 +101,6 @@
    transform: scale(1.1);/*10% de zoom na imagem*/
 }
 
-
 #sobre, #infos-educacionais{
     color: var(--corprimary);
 }
@@ -128,7 +127,7 @@
     font-weight: bold;
 }
 
-@media (max-width: 980px){
+@media (max-width: 900px){
     .imagem2{
         height: 90%;
     } 
@@ -139,7 +138,10 @@
     .cursotempo{
         max-width: 20rem;
     }
-    .info-sobre > p{ /*alinhameto dos parágrafos "sobre" em mobile*/
+    .descricaocurso{
+        text-align: justify;
+    }
+    .info-sobre{ /*alinhameto dos parágrafos "sobre" em mobile*/
         text-align: justify;
     }
     #infos-educacionais{

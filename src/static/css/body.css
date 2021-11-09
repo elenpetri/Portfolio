@@ -13,7 +13,7 @@
     min-width: 375px;
 }
 
-*, ::after, ::before {/*Alinhamento do texto e botões do corpo*/
+#texto, #redes_sociais, ::after, ::before {/*Alinhamento do texto e botões do corpo*/
     box-sizing: unset;
 }
 
@@ -101,11 +101,15 @@
    transform: scale(1.1);/*10% de zoom na imagem*/
 }
 
+.info-sobre{
+    text-align: justify;
+}
+
 #sobre, #infos-educacionais{
     color: var(--corprimary);
 }
 
-#ens_med, #fac1, #fac2{
+#ens_med, #fac1, #cursoemvideo{
     font-size: 1.5rem;
     color: var(--corprimary);
     text-align: justify;
@@ -121,12 +125,6 @@
     font-weight: bold;
 }
 
-.desafios{
-    text-decoration: underline;
-    color: black;
-    font-weight: bold;
-}
-
 @media (max-width: 900px){
     .imagem2{
         height: 90%;
@@ -135,11 +133,9 @@
         justify-content: space-around;
         text-align: justify;
     }
-    .cursotempo{
-        max-width: 20rem;
-    }
     .descricaocurso{
         text-align: justify;
+        
     }
     .info-sobre{ /*alinhameto dos parágrafos "sobre" em mobile*/
         text-align: justify;

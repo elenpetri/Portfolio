@@ -19,8 +19,6 @@
 
 /*CSS Home*/
 .imagem1{
-    width:auto;
-    height: auto;
     max-width: 300px;
     max-height: 300px;
 }
@@ -65,7 +63,6 @@
     }
     .imagem1{
         height: 90%;
-        margin-bottom: 0rem!important;
     } 
     .no-padding-small {
         padding-right: 0px!important;
@@ -74,7 +71,6 @@
 
     #nome{
         font-size: xx-large;
-
     }
 
     .texto{
@@ -100,8 +96,6 @@
 }
 
 .imagem2{
-    width:auto;
-    height: auto;
     max-width: 300px;
     max-height: 300px;
 }

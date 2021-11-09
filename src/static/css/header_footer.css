@@ -62,5 +62,20 @@ footer a:link{
     text-align: center;
 }
 
+@media (min-width: 980px){ /*Mantém o footer fixo em telas maiores que 980px*/
+    #footer{
+        position: fixed!important;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1030;
+    }
+}
+
+@media (max-width: 500px){
+    #footer{
+        position: relative;
+    }
+} 
 
 

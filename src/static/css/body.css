@@ -125,6 +125,10 @@
     font-weight: bold;
 }
 
+a{
+    color: black;
+}
+
 @media (max-width: 900px){
     .imagem2{
         height: 90%;

@@ -57,7 +57,7 @@
     color: var(--cortxtbtn);
 }
 
-@media (max-width: 600px){
+@media (max-width: 750px){
     .imagem-home{
         height: 50%;
     }
@@ -78,11 +78,32 @@
     }
 
     #texto{
-        width: 375px;
+        width: 340px;
         font-size: larger;
         padding-bottom: 1rem;
     }
 } 
+
+@media (max-width: 600px){
+
+    .imagem-home{
+        height: 50%;
+    }
+    .imagem1{
+        height: 90%;
+    }
+        #texto{
+        width: 400px;
+        font-size: x-large;
+        padding-bottom: 1rem;
+    }
+    .no-padding-small {
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+}
+
+
 /*=====================================================================================================*/
 /*CSS Sobre*/
 
@@ -129,25 +150,7 @@ a{
     color: black;
 }
 
-@media (max-width: 900px){
-    .imagem2{
-        height: 90%;
-    } 
-    #sobre { /*alinhameto 'sobre' em mobile*/
-        justify-content: space-around;
-        text-align: justify;
-    }
-    .descricaocurso{
-        text-align: justify;
-        
-    }
-    .info-sobre{ /*alinhameto dos parágrafos "sobre" em mobile*/
-        text-align: justify;
-    }
-    #infos-educacionais{
-        justify-content: center;
-    }
-}
+
 
 /*=====================================================================================================*/
  /*CSS Projetos*/

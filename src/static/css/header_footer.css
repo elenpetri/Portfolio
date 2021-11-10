@@ -62,10 +62,18 @@ footer a:link{
     text-align: center;
 }
 
-@media (max-width: 500px){
+
+
+@media (max-width: 736px){
     #footer{
         position: relative;
     }
-} 
+}
+
+@media (width: 600px){
+    #footer{
+        position: fixed;
+    }
+}
 
 

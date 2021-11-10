@@ -207,13 +207,15 @@ a{
     color: var(--cortxtbtn);
 }
 
-@media(max-width:600px){
+@media(max-width:800px){
     #projeto1, #projeto2, #projeto3{
         text-align: center;
     }
     .img-projeto{
         filter: none;
         transform: none !important;
+        width: 200px;
+        height: 200px;
     }
 }
 

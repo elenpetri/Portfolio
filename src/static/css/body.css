@@ -84,24 +84,6 @@
     }
 } 
 
-@media (max-width: 600px){
-
-    .imagem-home{
-        height: 50%;
-    }
-
-        #texto{
-        
-        font-size: x-large;
-        padding-bottom: 1rem;
-    }
-    .no-padding-small {
-        padding-right: 0px!important;
-        padding-left: 0px!important;
-    }
-}
-
-
 /*=====================================================================================================*/
 /*CSS Sobre*/
 
@@ -147,6 +129,12 @@
 a{
     color: black;
 }
+
+@media (max-width: 750px){
+    #sobre, #infos-educacionais{
+        text-align: center!important;
+    }
+} 
 
 
 

@@ -53,7 +53,6 @@ Desenvolvimento de um sistema para Internet que sirva como uma página pessoal o
   * [index](/src/templates/index.html): arquivo que contém a estruturação em HTML da página inicial do protótipo;
   * [projetos](/src/templates/projetos.html): arquivo que contém a estruturação em HTML da página de projetos do protótipo;
   * [sobre](/src/templates/sobre.html): arquivo que contém a estruturação em HTML da página sobre do protótipo.
-<br/>
 
 ## Links para os vídeos no youtube
 | [Primeira entrega](https://youtu.be/jT8Ad46LVV8)

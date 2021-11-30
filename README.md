@@ -40,6 +40,7 @@ Desenvolvimento de um sistema para Internet que sirva como uma página pessoal o
   * [body](src/static/css/body.css): arquivo css que contém a estilização do corpo(body) do protótipo;
   * [cores](src/static/css/cores.css): arquivo css que contém a padronização do esquema de cores do protótipo;
   * [header_footer](/src/static/css/header_footer.css): arquivo css que contém a estilização do cabeçalho(header) e do rodapé(footer) do protótipo;
+  * [bootstrap](/src/static/css/bootstrap): arquivo que contém biblioteca do framework Bootstrap;
 * [src/static/fontes](/src/static/fontes): pasta que contém fonte externa que está sendo utilizada na assinatura da autora no footer;
   * [fontes](/src/static/fontes/Rustling%20Sound.ttf): arquivo de fonte externa que está sendo utilizada na assinatura da autora no footer do protótipo;
 * [src/static/imagens](/src/static/imagens): pasta que contém imagens que estão sendo utilizadas no sistema;
@@ -53,6 +54,7 @@ Desenvolvimento de um sistema para Internet que sirva como uma página pessoal o
   * [index](/src/templates/index.html): arquivo que contém a estruturação em HTML da página inicial do protótipo;
   * [projetos](/src/templates/projetos.html): arquivo que contém a estruturação em HTML da página de projetos do protótipo;
   * [sobre](/src/templates/sobre.html): arquivo que contém a estruturação em HTML da página sobre do protótipo.
+* [src/app.py](/src/app.py): arquivo de aplicação que contém o mapeamento de rotas e templetes do site;
 
 ## Links para os vídeos no youtube
 | [Primeira entrega](https://youtu.be/jT8Ad46LVV8)

@@ -60,3 +60,36 @@ Desenvolvimento de um sistema para Internet que sirva como uma página pessoal o
 | [Primeira entrega](https://youtu.be/jT8Ad46LVV8)
 
 | [Segunda entrega](https://youtu.be/uZqqx1TmkWo)
+
+## Passo a passo para a execução do sistema
+
+Clonar o repositório:
+```bash
+git clone https://github.com/elenpetri/Portifolio.git
+```
+
+Criar ambiente virtual Python:
+```bash
+python -m venv env
+```
+Iniciar ambiente virtual:
+
+Para Windows:
+```bash
+.\env\Scripts\activate
+```
+
+Para Linux:
+```bash
+source env/bin/activate
+```
+
+Instalar dependências:
+```bash
+pip install -r requirements.txt
+```
+
+Executar aplicação (na pasta src/):
+```bash
+python app.py
+```

@@ -20,18 +20,33 @@
 <body id="corpo">
     <div id="cabecalho">
         <header class="d-flex flex-wrap justify-content-center p-3 border-bottom align-items-center">
-            <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
                 <img id="logo" src="../static/imagens/logo.png" alt="Logo">
             </a>
             <ul class="nav nav-pills" id="menu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link active menu-item-color">Início</a>
+                    {% if  pagina_selecionada == 'inicio' %}
+                    <a href="/" class="nav-link active menu-item-color">Início</a>
+                    {% else %}
+                    <a href="/" class="nav-link">Início</a>
+                    {% endif%}
                 </li>
                 <li class="nav-item">
-                    <a href="sobre.html" class="nav-link">Sobre</a>
+                    {% if pagina_selecionada == 'sobre' %}
+                    <a href="sobre" class="nav-link active menu-item-color">Sobre</a>
+                    {% else %}
+                    <a href="sobre" class="nav-link">Sobre</a>
+                    {% endif %}
+                    
+                    
                 </li>
                 <li class="nav-item">
-                    <a href="projetos.html" class="nav-link">Projetos</a>
+                    {% if pagina_selecionada == 'projetos' %}
+                    <a href="projetos" class="nav-link active menu-item-color">Projetos</a>
+                    {% else %}
+                    <a href="projetos" class="nav-link">Projetos</a>
+                    {% endif %}
+                    
                 </li>
             </ul>
         </header>
@@ -40,13 +55,20 @@
     {% block conteudo %}
     {% endblock %}
 
-    {% block footer %}
+   
+    {% if pagina_selecionada == 'inicio' %}
     <footer id="footer" class="no-padding-small mt-auto py-3 fixed-bottom">
         <div class="container no-padding-small">
-            <a href="index.html" class="text">by Élen Petri</a>
+            <a href="/" class="text">by Élen Petri</a>
         </div>
     </footer>
-    {% endblock %}
+    {% else %}
+    <footer id="footer" class="no-padding-small mt-auto py-3 position-relative">
+        <div class="container no-padding-small">
+            <a href="/" class="text">by Élen Petri</a>
+        </div>
+    </footer>
+    {% endif %}
 
 </body>
 </html>

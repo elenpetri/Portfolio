@@ -95,4 +95,4 @@ python app.py
 ```
 
 
-[Voltar ao topo](README.md)
+[Voltar ao topo &#8593;](README.md) 

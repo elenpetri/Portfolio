@@ -106,7 +106,7 @@
     text-align: justify;
 }
 
-#sobre, #infos-educacionais{
+#sobre, #infos-educacionais, #conhecimento{
     color: var(--corprimary);
 }
 
@@ -127,11 +127,17 @@
 }
 
 a{
-    color: black;
+    color: var(--corprimary);
+    font-weight: bold;
+}
+
+a:hover{
+    color: var(--corbgmenu);
+    font-weight: bold;
 }
 
 @media (max-width: 750px){
-    #sobre, #infos-educacionais{
+    #sobre, #infos-educacionais, #conhecimento{
         text-align: center!important;
     }
 } 

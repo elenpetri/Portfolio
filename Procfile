@@ -1,1 +1,1 @@
-web: gunicorn src.app:elen-petri
+web: gunicorn src.app:elen-petrip --log-file -

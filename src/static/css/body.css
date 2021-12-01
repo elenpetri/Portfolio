@@ -180,14 +180,13 @@ a:hover{
 /*estilização do botão*/
 
 .projeto button.botao_saibamais a:visited, .projeto button.botao_saibamais{ /*a:visited = para não mostrar a cor azul quando clicado*/
-    border: 1px solid var(--corbgmenu);
-    font-size: 15px;
+    font-size: auto;
     font-weight: bold;
     color: var(--corprimary);
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid var(--corbgmenu);
     border-radius: 10px;
-    width: 100px;
+    width: auto;
     padding: 10px;
     box-shadow: 2px 2px #b3b1b1;
 }
@@ -197,7 +196,7 @@ a:hover{
 }
     
 /*efeito botão*/
-.projeto button.botao_saibamais:hover, .projeto button.botao_saibamais:hover > a:visited{ 
+.projeto button.botao_saibamais:hover, .projeto button.botao_saibamais:hover > a:visited, .projeto button.botao_saibamais:hover > a { 
     background-color: var(--corprimary);
     color: var(--cortxtbtn);
 }

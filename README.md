@@ -93,6 +93,6 @@ Executar aplicação (na pasta src/):
 ```bash
 python app.py
 ```
-
+### Acesse a aplicação: https://elen-petri.herokuapp.com/
 
 [Voltar ao topo &#8593;](README.md) 

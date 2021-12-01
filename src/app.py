@@ -1,6 +1,5 @@
 from flask import Flask, app, render_template
 from datetime import date
-import os
 
 app = Flask(__name__)
 
@@ -23,7 +22,5 @@ def calcularIdade(dataAniversario):
     return idade
 
 
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port) 
+if __name__ == '__main__':
+    app.run('0.0.0.0')

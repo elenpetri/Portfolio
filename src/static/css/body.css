@@ -46,25 +46,39 @@ html {
 /*estilização do botão*/
 
 #redes_sociais button,#redes_sociais button a:visited{ /*a:visited = para não mostrar a cor azul quando clicado*/
+    background-color: #350D70;
+    color: var(--cortxtbtn);
     font-size: 15px;
     font-weight: bold;
-    color: var(--corprimary);
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px solid var(--corbgmenu);
     border-radius: 10px;
     width: 100px;
     padding: 10px;
-    box-shadow: 2px 2px #b3b1b1;
+    box-shadow: 1px 1px;
+    text-decoration: none;    
+    box-shadow: 1px 1px #350d701f;
 }
 
 #redes_sociais button a{ /*a:visited = para não mostrar a cor azul sem ter clicado*/
-    color: var(--corprimary);   
+    color: var(--corbgmenu);   
+    text-decoration: none;
 }
     
-/*efeito botão*/
+/*efeito botão
 #redes_sociais button:hover, #redes_sociais button:hover > a:visited, #redes_sociais button:hover > a{ 
     background-color: var(--corprimary);
     color: var(--cortxtbtn);
+} */
+
+#btn-shine-in:hover{
+    background: var(--corbtnshine);
+    box-shadow: 0 0 5px var(--corbtnshine), 0 0 25px var(--corbtnshine), 
+    0 0 50px var(--corbtnshine), 0 0 200px var(--corbtnshine); 
+}
+
+#btn-shine-gh:hover{
+    background: var(--corbtnshine);
+    box-shadow: 0 0 5px var(--corbtnshine), 0 0 25px var(--corbtnshine), 
+    0 0 50px var(--corbtnshine), 0 0 200px var(--corbtnshine);  
 }
 
 @media (max-width: 750px){
@@ -98,7 +112,6 @@ html {
 /*CSS Sobre*/
 
 #corpo-sobre{ /*Cor de fundo*/
-    background-color: var(--corbgfundo);
     min-width: 375px;
 }
 

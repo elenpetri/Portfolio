@@ -1,7 +1,7 @@
 @charset "UTF-8";
 :root{
     --corprimary: #6f2280;/*Cor principal da paleta*/
-    --corbgmenu: #923747;/*Cor de fundo do menu*/
     ----cortxt: #FDE3DD; /*cor dos textos do menu e do footer*/
     --cortxtbtn: #fff;
+    --corbtnshine: #BF4FE0;
 }

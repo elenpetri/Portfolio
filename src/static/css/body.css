@@ -2,15 +2,20 @@
 @import "../css/cores.css";
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
 
+html {
+    height: 100%;
+}
 .align-items-body{/*alinha os itens no meio da tela*/
-    padding: 5%;
+    padding: 10%;
     margin: auto;
     padding-bottom: 2px;
 }
 
 #corpo{ /*Cor de fundo*/
-    background-color: var(--corbgfundo);
-    min-width: 375px;
+    height: 100%;
+    background: rgb(111,34,128);
+    background: linear-gradient(180deg, rgba(111,34,128,1) 0%, rgba(185,126,158,1) 100%);
+
 }
 
 #texto, #redes_sociais, ::after, ::before {/*Alinhamento do texto e botões do corpo*/

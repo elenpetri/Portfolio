@@ -27,9 +27,10 @@
 
 /*Coloca cor de fundo e sublinhado no menu da página atual*/
 .nav-pills .nav-link.active.menu-item-color, .nav-pills .show>.nav-link.menu-item-color{
-    background-color: var(--corbgmenu);
+    background-color: var(--corprimary);
     text-decoration-line: underline;
     text-underline-offset: 2px;
+    text-decoration-color: #BF4FE0;
 }
 
 /*Remover o sublinhado do link*/

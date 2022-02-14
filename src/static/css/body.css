@@ -62,12 +62,7 @@ html {
     color: var(--corbgmenu);   
     text-decoration: none;
 }
-    
-/*efeito botão
-#redes_sociais button:hover, #redes_sociais button:hover > a:visited, #redes_sociais button:hover > a{ 
-    background-color: var(--corprimary);
-    color: var(--cortxtbtn);
-} */
+
 
 #btn-shine-in:hover{
     background: var(--corbtnshine);

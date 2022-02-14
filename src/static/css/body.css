@@ -6,7 +6,7 @@ html {
     height: 100%;
 }
 .align-items-body{/*alinha os itens no meio da tela*/
-    padding: 10%;
+    padding: 5%;
     margin: auto;
     padding-bottom: 2px;
 }
@@ -14,12 +14,22 @@ html {
 #corpo{ /*Cor de fundo*/
     height: 100%;
     background: rgb(111,34,128);
-    background: linear-gradient(180deg, rgba(111,34,128,1) 0%, rgba(185,126,158,1) 100%);
+    background: linear-gradient(180deg, rgba(111,34,128,1) 10%, rgba(185,126,158,1) 100%);
+    background-repeat: no-repeat;
 
 }
 
 #texto, #redes_sociais, ::after, ::before {/*Alinhamento do texto e botões do corpo*/
     box-sizing: unset;
+}
+
+@media (max-width: 750px){
+    html{
+        height: auto;
+    }
+    #corpo{
+        height: auto;
+    } 
 }
 
 /*CSS Home*/

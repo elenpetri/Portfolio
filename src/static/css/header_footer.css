@@ -6,10 +6,6 @@
     src: url('../fontes/Rustling\ Sound.ttf') format('truetype');
 }
 
-/*Header*/
-#cabecalho{
-    background-color: var(--corprimary);
-}
 
 /*logo*/
 #logo{   

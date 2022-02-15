@@ -2,17 +2,18 @@
 @import "../css/cores.css";
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
 
-html {
-    height: 100%;
+html[pagina = inicio] {
+  height: 100%;
 }
+
 .align-items-body{/*alinha os itens no meio da tela*/
-    padding: 5%;
+    padding: 10%;
     margin: auto;
     padding-bottom: 2px;
 }
 
 #corpo{ /*Cor de fundo*/
-    height: 100%;
+    
     background: rgb(111,34,128);
     background: linear-gradient(180deg, rgba(111,34,128,1) 10%, rgba(185,126,158,1) 100%);
     background-repeat: no-repeat;
@@ -101,7 +102,11 @@ html {
         font-size: larger;
         padding-bottom: 1rem;
     }
+    html[pagina = inicio] {
+        height: auto;
+      }
 } 
+
 
 /*=====================================================================================================*/
 /*CSS Sobre*/

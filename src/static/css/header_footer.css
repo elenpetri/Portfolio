@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @import "../css/cores.css";
 
-@font-face {
-    font-family: 'Rustling' ;
-    src: url('../fontes/Rustling\ Sound.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+#footer{
+    font-family: 'Playfair Display', serif;
+}
 
 /*logo*/
 #logo{   
@@ -52,10 +52,14 @@ footer a:link{
 }
 
 #footer .text {
-    color: var(----cortxt);
-    font-family: 'Rustling' ;
+    color: var(--cortxtwhite);
+    font-family: 'Playfair Display', 'serif' ;
     font-size: 20px;
     text-align: center;
+}
+
+#footer .inicial{
+    color: var(--coriniciais);
 }
 
 @media (max-width: 750px){

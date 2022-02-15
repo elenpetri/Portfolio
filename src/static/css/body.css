@@ -109,7 +109,6 @@ html[pagina = inicio] {
       }
 } 
 
-
 /*=====================================================================================================*/
 /*CSS Sobre*/
 
@@ -131,17 +130,18 @@ html[pagina = inicio] {
     text-align: justify;
 }
 
-#sobre, #infos-educacionais, #conhecimento{
-    color: var(--corprimary);
+#sobre, #infos-educacionais, #conhecimento, .texto-info{
+    color: var(--cortxtwhite);
 }
 
 #ens_med, #fac1, #cursoemvideo{
     font-size: 1.5rem;
-    color: var(--corprimary);
+    color: var(--corcontrast);
     text-align: justify;
 }
 .cursotempo{
     font-weight: bold;
+    color: var(--corcontrast)
 }
 
 .descricaocurso{
@@ -152,12 +152,12 @@ html[pagina = inicio] {
 }
 
 a{
-    color: var(--corprimary);
+    color: var(--corcontrast);
     font-weight: bold;
 }
 
 a:hover{
-    color: var(--corbgmenu);
+    color: var(--corbtnshine);
     font-weight: bold;
 }
 

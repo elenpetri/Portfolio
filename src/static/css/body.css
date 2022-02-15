@@ -13,8 +13,6 @@ html[pagina = inicio] {
 }
 
 #corpo{ /*Cor de fundo*/
-    
-    background: rgb(111,34,128);
     background: linear-gradient(180deg, rgba(111,34,128,1) 10%, rgba(185,126,158,1) 100%);
     background-repeat: no-repeat;
 

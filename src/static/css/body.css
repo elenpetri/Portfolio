@@ -52,12 +52,13 @@ html[pagina = inicio] {
     color: var(--cortxtwhite);
     font-size: 15px;
     font-weight: bold;
-    border-radius: 10px;
-    width: 100px;
-    padding: 10px;
-    box-shadow: 1px 1px;
+    border-radius: 35px;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-decoration: none;    
     box-shadow: 1px 1px #350d701f;
+    border-width: 0;
 }
 
 #redes_sociais button a{ /*a:visited = para não mostrar a cor azul sem ter clicado*/
@@ -70,12 +71,14 @@ html[pagina = inicio] {
     background: var(--corbtnshine);
     box-shadow: 0 0 5px var(--corbtnshine), 0 0 25px var(--corbtnshine), 
     0 0 50px var(--corbtnshine), 0 0 200px var(--corbtnshine); 
+    border-width: 2px;
 }
 
 #btn-shine-gh:hover{
     background: var(--corbtnshine);
     box-shadow: 0 0 5px var(--corbtnshine), 0 0 25px var(--corbtnshine), 
     0 0 50px var(--corbtnshine), 0 0 200px var(--corbtnshine);  
+    border-width: 2px;
 }
 
 @media (max-width: 750px){

@@ -18,10 +18,6 @@ html[pagina = inicio] {
 
 }
 
-#texto, #redes_sociais, ::after, ::before {/*Alinhamento do texto e botões do corpo*/
-    box-sizing: unset;
-}
-
 @media (max-width: 750px){
     html{
         height: auto;
@@ -31,7 +27,6 @@ html[pagina = inicio] {
     } 
 }
 
-/*CSS Home*/
 #nome{
     font-size: 50px;
     color: var(--cortxtwhite);
@@ -41,6 +36,10 @@ html[pagina = inicio] {
 #texto {
     width: 466px;
     color: var(--cortxtwhite);
+}
+
+#texto, #redes_sociais, ::after, ::before {/*Alinhamento do texto e botões do corpo*/
+    box-sizing: unset;
 }
 
 /*estilização do botão*/
@@ -107,6 +106,10 @@ html[pagina = inicio] {
     html[pagina = inicio] {
         height: auto;
       }
+
+      .align-items-body {
+        padding-top: 0;
+    }
 } 
 
 /*=====================================================================================================*/

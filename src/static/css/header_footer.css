@@ -1,7 +1,6 @@
 @charset "UTF-8";
 @import "../css/cores.css";
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 
 #footer{
     font-family: 'Playfair Display', serif;
@@ -53,15 +52,15 @@ footer a:link{
 
 #footer .text-name {
     color: var(--cortxtwhite);
-    font-family: 'Playfair Display', 'serif' ;
-    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
     text-align: center;
 }
 
 #footer .text{
     color: var(--cortxtwhite);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 12px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
     text-align: center;
 }
 

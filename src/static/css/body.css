@@ -36,19 +36,20 @@ html[pagina = inicio] {
 /*CSS Home*/
 #nome{
     font-size: 50px;
-    color: var(--corprimary);
+    color: var(--cortxtwhite);
     font-family: 'Playfair Display', serif;
 }
 
 #texto {
     width: 466px;
+    color: var(--cortxtwhite);
 }
 
 /*estilização do botão*/
 
 #redes_sociais button,#redes_sociais button a:visited{ /*a:visited = para não mostrar a cor azul quando clicado*/
     background-color: #350D70;
-    color: var(--cortxtbtn);
+    color: var(--cortxtwhite);
     font-size: 15px;
     font-weight: bold;
     border-radius: 10px;
@@ -221,7 +222,7 @@ a:hover{
 /*efeito botão*/
 .projeto button.botao_saibamais:hover, .projeto button.botao_saibamais:hover > a:visited, .projeto button.botao_saibamais:hover > a { 
     background-color: var(--corprimary);
-    color: var(--cortxtbtn);
+    color: var(--cortxtwhite);
 }
 
 @media(max-width:800px){

@@ -2,6 +2,6 @@
 :root{
     --corprimary: #6f2280;/*Cor principal da paleta*/
     ----cortxt: #FDE3DD; /*cor dos textos do menu e do footer*/
-    --cortxtbtn: #fff;
+    --cortxtwhite: #fff;
     --corbtnshine: #BF4FE0;
 }

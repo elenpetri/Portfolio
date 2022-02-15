@@ -15,7 +15,7 @@
 
 /*menu*/
 #menu a{
-    color: var(----cortxt);
+    color: var(--cortxtwhite);
     font-weight: bold;
     padding: 1rem 2rem;
     font-size: large;
